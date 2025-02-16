@@ -1,6 +1,5 @@
-# SOLID
-
-## [SOLID Principles](https://en.wikipedia.org/wiki/SOLID) explained in Python with examples.
+# SOLID principles explained
+[**SOLID**](https://en.wikipedia.org/wiki/SOLID) is a set of five design principles in object-oriented programming (OOP) that help developers create more understandable, flexible, and maintainable code. By adhering to these principles, developers can produce systems that are easier to refactor, extend, and debug over time.
 
 -   [Single Responsibility Principle](https://github.com/matiagimenez/solid-explained/blob/main/1.single_responsibility.py)
 -   [Open/Closed Principle](https://github.com/matiagimenez/solid-explained/blob/main/2.open_closed.py)
