@@ -4,6 +4,6 @@
 
 -   [Single Responsibility Principle](https://github.com/matiagimenez/solid-explained/blob/main/single_responsibility)
 -   [Open/Closed Principle](https://github.com/matiagimenez/solid-explained/blob/main/open_closed)
--   [Liskov Substitution Principle](https://github.com/matiagimenez/solid-explained/blob/main/liskov_substitutiony)
+-   [Liskov Substitution Principle](https://github.com/matiagimenez/solid-explained/blob/main/liskov_substitution)
 -   [Interface Segregation Principle](https://github.com/matiagimenez/solid-explained/blob/main/interface_segregation)
 -   [Dependency Inversion Principle](https://github.com/matiagimenez/solid-explained/blob/main/dependency_inversion)
