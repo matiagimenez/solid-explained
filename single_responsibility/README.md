@@ -19,5 +19,4 @@ Similarly, a class in software should specialize in a single functionality or re
 ## References
 
 -   📚 [The Single Responsibility Principle (SRP) of SOLID](https://giovannamoeller.medium.com/the-single-responsibility-principle-srp-of-solid-eb2feed0c64b)
-
 -   📚 [SOLID: The First 5 Principles of Object Oriented Design](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)

@@ -25,5 +25,4 @@ In software, a well-designed system allows for new features (new menu items) to 
 ## References
 
 -   📚 [Open-Closed Principle: Extending Your Code Without Modification](https://medium.com/@reer217/open-closed-principle-extending-your-code-without-modification-523109ccfec2)
-
 -   📚 [What is the meaning and reasoning behind the Open/Closed Principle?](https://stackoverflow.com/questions/59016/what-is-the-meaning-and-reasoning-behind-the-open-closed-principle)
