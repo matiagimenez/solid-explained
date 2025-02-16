@@ -21,8 +21,6 @@ class Dish:
             return "Delicious Italian Pasta"
         elif self.type == "pizza":
             return "Cheesy Margherita Pizza"
-        elif self.type == "burger":
-            return "Juicy Beef Burger"
         else:
             return "Unknown Dish"
 
@@ -35,8 +33,6 @@ class Dish:
             return 12.99
         elif self.type == "pizza":
             return 15.99
-        elif self.type == "burger":
-            return 10.99
         else:
             return 0.0
         
@@ -86,20 +82,11 @@ class Pizza(Dish):
     def get_price(self) -> float:
         return 15.99
 
-class Burger(Dish):
-    def get_description(self) -> str:
-        return "Juicy Beef Burger"
-
-    def get_price(self) -> float:
-        return 10.99
-
-
-menu = [Pasta(), Pizza(), Burger()]
+menu = [Pasta(), Pizza()]
 """
 ✅ Solution:
 - `Dish` class is "closed for modification" (existing code remains unchanged).
 - New dishes can be added by creating subclasses (extending functionality).
-- `print_menu` function works with any new dish without requiring changes.
 
 To add a new dish like "Salad," we simply create:
 """
