@@ -1,4 +1,4 @@
-# SRP: Single Single Responsibility Principle
+# SRP: Single Responsibility Principle
 
 The Single Responsibility Principle (SRP), the first of the five principles of SOLID, is a fundamental concept in object-oriented software development.
 
