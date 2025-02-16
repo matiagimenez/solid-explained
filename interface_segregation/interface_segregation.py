@@ -83,12 +83,10 @@ def perform_faxing(worker: Faxer):
     worker.fax_document()
 
 
-# Creating workers
 printer = PrintWorker()
 scanner = ScanWorker()
 faxer = FaxWorker()
 
-# Using the workers with the correct interfaces
 perform_printing(printer)  # ✅ Works fine
 perform_scanning(scanner)  # ✅ Works fine
 perform_faxing(faxer)      # ✅ Works fine

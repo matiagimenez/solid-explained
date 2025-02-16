@@ -85,7 +85,6 @@ def make_bird_sound(bird: Bird) -> None:
 def make_bird_fly(bird: FlyingBird) -> None:
     print(bird.fly())
 
-# Creating birds
 sparrow = Sparrow()
 penguin = Penguin()
 
