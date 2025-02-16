@@ -2,8 +2,6 @@
 Single Responsibility Principle (SRP) - “…You had one job” 
 
 A class should have only one reason to change, meaning it should only have one responsibility.
-
-If a class has multiple responsibilities, it becomes tightly coupled. A change in one responsibility will likely require changes in another, making the code harder to maintain and modify.
 """
 
 class User:
@@ -44,7 +42,10 @@ class UserRepository:
 """
 Now, `User` only manages user properties, while `UserRepository` is responsible for persistence.
 
-One downside of strict separation is that clients of this code now need to handle two classes. To simplify, we can use a Facade pattern:
+One downside of strict separation is that clients of this code now need to handle two classes. 
+
+To simplify, we can use a Facade pattern. With this approach, `UserService` acts as a Facade, combining both concerns without violating SRP. 
+Clients can interact with a single class while maintaining separation of concerns internally.
 """
 
 class UserService:
@@ -57,7 +58,3 @@ class UserService:
     
     def save(self) -> User:
         self.db.save(self.user)
-
-"""
-With this approach, `UserService` acts as a Facade, combining both concerns without violating SRP. Clients can interact with a single class while maintaining separation of concerns internally.
-"""
