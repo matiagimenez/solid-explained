@@ -19,10 +19,13 @@ Another case where the principle may be violated would be if a subclass redefine
 
 ### Real world analogy
 
-Imagine you are at a library, and the library has a collection of books organized into categories, such as Fiction, Non-fiction, and Science.
+Imagine a delivery service company that has different types of vehicles: trucks, vans, and bikes. The company expects all vehicles to be able to complete deliveries, so they have a general process where a vehicle is assigned to deliver a package.
 
-The book concept represents the general idea of any book in the library.
-Specific categories like fiction books, non-fiction books, and science books represent more specialized types of books.
+Now, a truck and a van can both be used for deliveries, but what happens if you try to send a bike on a long-haul delivery that requires a large capacity? The bike isn't designed for such a task and would fail to perform as expected. If a truck is replaced with a van or vice versa, everything works fine because they can handle the expected tasks similarly.
+
+However, if you substitute the truck or van with a bike that isn’t capable of handling larger deliveries, it breaks the process because it can't fulfill the same role. This violates the Liskov Substitution Principle, which says that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+
+In software, this principle ensures that a subclass can be substituted for its parent class without introducing errors or unexpected behaviors, maintaining consistency and trust in the system.
 
 ## References
 
