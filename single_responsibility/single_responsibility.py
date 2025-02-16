@@ -20,7 +20,8 @@ The `User` class violates SRP because it has two responsibilities:
 1. Managing user properties (`username`, `get_username`).
 2. Handling database storage (`save_to_database`).
 
-This design creates coupling between business logic (user properties) and persistence logic (database operations). If database management changes, we need to modify the `User` class, which should ideally remain focused only on user properties.
+This design creates coupling between business logic (user properties) and persistence logic (database operations). 
+If database management changes, we need to modify the `User` class, which should ideally remain focused only on user properties.
 """
 
 class User:
